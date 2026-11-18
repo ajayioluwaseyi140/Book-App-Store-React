@@ -130,7 +130,7 @@ function Dashboard() {
               </div>
               <label className="block text-sm font-medium text-stone-700" htmlFor="category">Category
                 <select className={fieldClass} id="category" value={categoryId} onChange={(e) => setCategoryId(e.target.value)} required>
-                  <option value="">Choose a category</option><option value="8">Art</option><option value="7">Science</option><option value="11">Fantasy</option><option value="9">Religion</option><option value="10">Politics</option>
+                  <option value="">Choose a category</option><option value="4">Art</option><option value="5">Science</option><option value="1">Fantasy</option><option value="3">Religion</option><option value="2">Politics</option>
                 </select>
               </label>
               <label className="block text-sm font-medium text-stone-700" htmlFor="description">Description<textarea className={`${fieldClass} min-h-28 resize-y`} id="description" placeholder="What makes this book worth reading?" onChange={(e) => setDescription(e.target.value)} value={description} required /></label>
